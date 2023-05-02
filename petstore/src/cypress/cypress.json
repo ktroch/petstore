@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://petstore.swagger.io/v2",
+  "defaultCommandTimeout": 10000,
+  "video": false,
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}
